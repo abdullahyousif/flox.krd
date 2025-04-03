@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="FLOX logo web.png">
+    <title>FLOX - Volunteer Community Organization</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style-flox.css">
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Top Header -->
+    <header id="main-header">
+        <div class="container">
+            <!-- Logo Image -->
+            <a href="#home" class="header-logo" id="logo-link">
+                <img src="FLOX-logo-new-2.6.png" alt="FLOX Organization Logo">
+            </a>
+
+            <div class="header-nav-area">
+                <!-- Desktop Navigation Links -->
+                <nav id="desktop-nav-links">
+                    <a href="#home" class="active nav-item">Home</a>
+                    <a href="#about" class="nav-item">About Us</a>
+                    <a href="#opportunities" class="nav-item">Volunteer</a>
+                    <a href="#projects" class="nav-item">Projects</a>
+                    <a href="#events" class="nav-item">Events</a>
+                    <a href="#contact" class="nav-item">Contact</a>
+                </nav>
+                <!-- Desktop Auth Buttons -->
+                <div class="auth-buttons">
+                    <button class="btn btn-secondary btn-small auth-nav-btn" data-target="sign-in">Sign In</button>
+                    <button class="btn btn-small auth-nav-btn" data-target="sign-up">Sign Up</button>
+                </div>
+            </div>
+             <!-- Mobile Menu Toggle Button -->
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+        </div>
+    </header>
+
+     <!-- Mobile Navigation Dropdown Container -->
+    <div id="mobile-nav-container">
+        <nav id="mobile-nav-links">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#about" class="nav-item">About Us</a>
+            <a href="#opportunities" class="nav-item">Volunteer</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#events" class="nav-item">Events</a>
+            <a href="#contact" class="nav-item">Contact</a>
+        </nav>
+        <!-- Mobile Auth Buttons -->
+        <div class="mobile-auth-buttons">
+             <button class="btn btn-secondary auth-nav-btn" data-target="sign-in">Sign In</button>
+             <button class="btn auth-nav-btn" data-target="sign-up">Sign Up</button>
+        </div>
+    </div>
+
+    <!-- Main Content Wrapper -->
+    <main id="main-content">
+        <!-- Home Section with Video BG -->
+        <section id="home">
+            <div class="video-background-container">
+                <video autoplay muted loop playsinline id="home-bg-video" poster="placeholder-image.jpg">
+                    <!-- Ensure 'video-home.mp4' is in the same folder or update path -->
+                    <source src="video-home.mp4" type="video/mp4">
+                    <!-- Add other formats if needed -->
+                    <!-- <source src="videos/community_background.webm" type="video/webm"> -->
+                    Your browser doesn't support HTML5 video.
+                </video>
+            </div>
+            <div class="container home-content">
+                <h1>Community Powered. Volunteer Driven.</h1>
+                <p class="lead">Join FLOX and make a tangible difference in our community. Discover opportunities to connect, contribute, and grow together.</p>
+                <a href="#opportunities" class="btn">Find Opportunities</a>
+                <a href="#about" class="btn btn-secondary-home" style="margin-left: 15px;">Learn More</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="about-image">
+                     <!-- Ensure 'FLOX logo new-04.png' is in the same folder or update path -->
+                    <img src="FLOX logo new-04.png" alt="FLOX symbolic representation">
+                </div>
+                <div class="about-content">
+                    <h2>Our Mission & Vision</h2>
+                    <p style="white-space: pre-line;">Flox.KRD is a youth-driven community empowering young people to create real, lasting change. We provide opportunities to lead impactful projects and initiatives addressing key social issues, from environmental protection to education and innovation. As a platform for action, collaboration, and creativity, we support youth in transforming their communities—starting in Kurdistan and expanding worldwide.
+
+                    To build a global movement where young people turn ideas into action, driving innovation, leadership, and social impact to create a brighter, more connected future.</p>
+                    <a href="#projects" class="btn">See Our Impact</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- Volunteer Opportunities Section -->
+                <section id="opportunities">
+                    <div class="container">
+                        <h2>Volunteer Opportunities</h2>
+                        <p class="section-intro">Ready to lend a hand? Explore current ways you can get involved and share your skills.</p>
+                        <div class="card-grid">
+                            <div class="card">
+                                <!-- *** MODIFIED: Replaced div with img *** -->
+                                <img src="coming-soon.png" alt="Opportunity Icon 1" class="card-icon">
+                                <!-- *** END MODIFIED *** -->
+                                <h3>Coming Soon</h3>
+                                <p>Coming Soon.</p>
+                                <button class="btn btn-secondary auth-nav-btn" data-target="sign-up">Sign Up</button>
+                            </div>
+                            <div class="card">
+                                <!-- *** MODIFIED: Replaced div with img *** -->
+                                <img src="coming-soon.png" alt="Opportunity Icon 2" class="card-icon">
+                                <!-- *** END MODIFIED *** -->
+                                <h3>Coming Soon</h3>
+                                <p>Coming Soon.</p>
+                                <button class="btn btn-secondary auth-nav-btn" data-target="sign-up">Sign Up</button>
+                            </div>
+                            <div class="card">
+                                 <!-- *** MODIFIED: Replaced div with img *** -->
+                                <img src="coming-soon.png" alt="Opportunity Icon 3" class="card-icon">
+                                <!-- *** END MODIFIED *** -->
+                                <h3>Coming Soon</h3>
+                                <p>Coming Soon.</p>
+                                <button class="btn btn-secondary auth-nav-btn" data-target="sign-up">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>Our Projects</h2>
+                <p class="section-intro">See some of the successful initiatives powered by our amazing volunteers.</p>
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="FOOD-DIS.jpg" alt="Project Icon 1" class="card-icon">
+                        <h3>Food Dstribution</h3>
+                        <p>Dstribute food to those in need.</p>
+                    </div>
+                    <div class="card">
+                        <img src="coming-soon.png" alt="Project Icon 1" class="card-icon">
+                        <h3>Nothing Yet</h3>
+                        <p>Nothing Yet.</p>
+                    </div>
+                    <div class="card">
+                        <img src="coming-soon.png" alt="Project Icon 1" class="card-icon">
+                        <h3>Nothing Yet</h3>
+                        <p>Nothing Yet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events">
+            <div class="container">
+                <h2>Upcoming Events</h2>
+                <p class="section-intro">Join us for workshops, community gatherings, and special volunteer drives.</p>
+                <div class="calendar-placeholder">
+                    <div class="calendar-header">August 2024</div>
+                    <div class="calendar-grid">
+                        <div class="day-name">Sun</div> <div class="day-name">Mon</div> <div class="day-name">Tue</div> <div class="day-name">Wed</div> <div class="day-name">Thu</div> <div class="day-name">Fri</div> <div class="day-name">Sat</div>
+                        <div class="day-number other-month">28</div><div class="day-number other-month">29</div><div class="day-number other-month">30</div><div class="day-number other-month">31</div>
+                        <div class="day-number">1</div> <div class="day-number">2</div> <div class="day-number">3</div>
+                        <div class="day-number">4</div> <div class="day-number event-day">5</div> <div class="day-number">6</div> <div class="day-number">7</div> <div class="day-number">8</div> <div class="day-number">9</div> <div class="day-number">10</div>
+                        <div class="day-number">11</div><div class="day-number">12</div><div class="day-number">13</div><div class="day-number">14</div><div class="day-number">15</div><div class="day-number event-day">16</div><div class="day-number">17</div>
+                        <div class="day-number">18</div><div class="day-number">19</div><div class="day-number">20</div><div class="day-number">21</div><div class="day-number">22</div><div class="day-number">23</div><div class="day-number">24</div>
+                        <div class="day-number">25</div><div class="day-number">26</div><div class="day-number">27</div><div class="day-number event-day">28</div><div class="day-number">29</div><div class="day-number">30</div><div class="day-number">31</div>
+                    </div>
+                    <div class="event-list-placeholder">
+                        <p><strong>Aug 5:</strong> Volunteer Orientation Session</p>
+                        <p><strong>Aug 16:</strong> Community Cleanup Drive - Park Ave</p>
+                        <p><strong>Aug 28:</strong> Fundraising Gala Planning Meeting</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get Involved or Ask a Question</h2>
+                <p class="section-intro">
+                    Use the form below to sign up for opportunities, ask questions, or share your ideas. We'd love to hear from you!
+                </p>
+                <form id="contact-form-main">
+                    <div class="form-group"> <label for="name">Full Name</label> <input type="text" id="name" name="name" required> </div>
+                    <div class="form-group"> <label for="email">Email Address</label> <input type="email" id="email" name="email" required> </div>
+                    <div class="form-group"> <label for="interest">Area of Interest (Optional)</label> <select id="interest" name="interest"> <option value="">-- Select an area --</option> <option value="opportunity1">[Opportunity Title 1]</option> <option value="opportunity2">[Opportunity Title 2]</option> <option value="general_volunteer">General Volunteering</option> <option value="partnership">Partnership Inquiry</option> <option value="question">General Question</option> </select> </div>
+                    <div class="form-group"> <label for="message">Your Message</label> <textarea id="message" name="message" rows="5" required></textarea> </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="contact-form-message" class="form-message"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sign In Page/Section -->
+    <section id="sign-in" class="auth-page">
+        <div class="auth-form-container">
+            <h2>Sign In</h2>
+            <p>Access your volunteer profile and manage your activities.</p>
+            <form id="sign-in-form">
+                <div class="form-group"> <label for="signin-email">Email Address</label> <input type="email" id="signin-email" name="signin-email" required> </div>
+                <div class="form-group"> <label for="signin-password">Password</label> <input type="password" id="signin-password" name="signin-password" required> </div>
+                <div id="signin-form-message" class="form-message"></div>
+                <button type="submit" class="btn">Sign In</button>
+            </form>
+            <div class="switch-auth"> Don't have an account? <button class="auth-nav-btn" data-target="sign-up">Sign Up</button> </div>
+            <a href="#" class="back-to-site" id="back-to-site-signin">← Back to main site</a>
+        </div>
+    </section>
+
+    <!-- Sign Up Page/Section -->
+    <section id="sign-up" class="auth-page">
+        <div class="auth-form-container">
+            <h2>Create Account</h2>
+            <p>Join the FLOX community and start volunteering!</p>
+            <form id="sign-up-form">
+                <div class="form-group"> <label for="signup-name">Full Name</label> <input type="text" id="signup-name" name="signup-name" required> </div>
+                <div class="form-group"> <label for="signup-email">Email Address</label> <input type="email" id="signup-email" name="signup-email" required> </div>
+                <div class="form-group"> <label for="signup-dob">Date of Birth</label> <input type="date" id="signup-dob" name="signup-dob" required> </div>
+                <div class="form-group"> <label for="signup-city">City</label> <input type="text" id="signup-city" name="signup-city" required> </div>
+                <div class="form-group"> <label for="signup-job-status">Current Status</label> <select id="signup-job-status" name="signup-job-status" required> <option value="" disabled selected>-- Please Select --</option> <option value="student">Student</option> <option value="employee">Employee</option> <option value="unemployed">Unemployed</option> <option value="other">Other</option> <option value="prefer_not_say">Prefer not to say</option> </select> </div>
+                <div class="form-group"> <label for="signup-password">Create Password</label> <input type="password" id="signup-password" name="signup-password" required> </div>
+                <div id="signup-form-message" class="form-message"></div>
+                <button type="submit" class="btn">Create Account</button>
+            </form>
+            <div class="switch-auth"> Already have an account? <button class="auth-nav-btn" data-target="sign-in">Sign In</button> </div>
+            <a href="#" class="back-to-site" id="back-to-site-signup">← Back to main site</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#about" class="nav-item">About</a> |
+                <a href="#opportunities" class="nav-item">Volunteer</a> |
+                <a href="#events" class="nav-item">Events</a> |
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+            <p>FLOX Community Organization</p>
+            <p>Empowering community through volunteer action.</p>
+            <p>© <span id="footer-year"></span> All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="function-flox.js"></script>
+
+</body>
+</html>
